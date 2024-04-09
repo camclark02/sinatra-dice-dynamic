@@ -53,8 +53,9 @@ get("/dice/5/4") do
   erb(:five_four)
 end
 
-get("/dynamic/:zebra/6") do
+get("/dynamic/:alice/6") do
   params
+
   @rolls = []
 
   50.times do
