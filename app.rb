@@ -53,7 +53,7 @@ get("/dice/5/4") do
   erb(:five_four)
 end
 
-get("/dynamic/50/6")
+get("/dynamic/50/6") do
   @rolls = []
 
   50.times do
@@ -63,4 +63,4 @@ get("/dynamic/50/6")
   end
 
   erb(:flexible)
-  end
+end
