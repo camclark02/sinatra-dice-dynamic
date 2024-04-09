@@ -54,6 +54,7 @@ get("/dice/5/4") do
 end
 
 get("/dynamic/:zebra/6") do
+  params
   @rolls = []
 
   50.times do
